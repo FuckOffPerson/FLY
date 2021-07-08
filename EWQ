@@ -63,7 +63,7 @@ end
 
 --Controls
 mouse.KeyDown:connect(function(key)
-	if key:lower() == "e" then
+	if key:lower() == "g" then
 		if flying then 
 			flying = false
 		else
